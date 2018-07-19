@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/L1"
+    android:background="#000"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:id="@+id/L2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:background="#fff">
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/et"
+           android:text="Markand Shanivas"
+           android:drawableRight="@drawable/filter"
+           />
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/L3"
+        android:orientation="horizontal"
+        android:background="#fff">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/et2"
+            android:text="410 restaurant                                     relevance"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/L3"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="#fff"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/bb"
+            android:layout_weight="0"
+            android:layout_width="114dp"
+            android:layout_height="62dp"
+            android:src="@drawable/burger">
+        </ImageView>
+        
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Burger King
+  American, Fast food
+2 ourlets near you"
+            />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/L4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#fff">
+        
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment=""/>
+        
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/L5"
+        android:background="#fff">
+        
+        <ImageView
+            android:layout_weight="0"
+            android:layout_width="114dp"
+            android:layout_height="62dp"
+            android:src="@drawable/mac" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mcdonalds
+ Fast food
+2 outlets near you"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/L6"
+        android:background="#fff">
+
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment=""/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/L5"
+        android:background="#fff">
+
+        <ImageView
+            android:layout_weight="0"
+            android:layout_width="114dp"
+            android:layout_height="62dp"
+            android:src="@drawable/ff"/>
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="elco
+ Street food,chinese,fast food"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/L6"
+        android:background="#fff">
+
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment=""/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/L7"
+        android:orientation="horizontal"
+        android:background="#fff">
+
+        <ImageView
+            android:id="@+id/im"
+            android:layout_width="111dp"
+            android:layout_height="50dp"
+            android:src="@drawable/m" />
+        <ImageView
+            android:id="@+id/im2"
+            android:layout_width="111dp"
+            android:layout_height="50dp"
+            android:src="@drawable/search"/>
+        <ImageView
+            android:id="@+id/im3"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cart"/>
+
+        <ImageView
+            android:id="@+id/im4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/acc" />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
